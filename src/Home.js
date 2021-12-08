@@ -16,10 +16,7 @@ class Landing extends React.Component {
 class Home extends React.Component {
     render() {
         return (
-            <div className="App">
-            <Landing />
-            </div>
-
+            <Landing/>
         );
     }
 

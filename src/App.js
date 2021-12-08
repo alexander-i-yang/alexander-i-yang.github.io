@@ -20,10 +20,12 @@ class App extends React.Component {
                             <Link to="about">About</Link>
                         </nav>
                     </div>*/}
-                    <Routes>
-                        <Route exact path="/" element={<Home/>}/>
-                        <Route exact path="about" element={<About/>}/>
-                    </Routes>
+                    <div className="content">
+                        <Routes>
+                            <Route exact path="/" element={<Home/>}/>
+                            <Route exact path="about" element={<About/>}/>
+                        </Routes>
+                    </div>
                 </Router>
             </div>
         );
