@@ -1,6 +1,26 @@
 $primary-color: #1e65a7;
 $secondary-color: #25b396;
+$bg-color: #13141a;
+$card-color-20: #313137;
 
-* {
-  
+$primary-text-color: #e0e0e0;
+$secondary-text-color: #a0a0a0;
+
+body {
+  margin: 0;
+}
+
+nav {
+  background-color: $card-color-20;
+  padding: 8px;
+  //box-shadow:
+
+  a {
+    color: $primary-text-color;
+    margin-right: 8px;
+  }
+}
+
+.app {
+  background-color: $bg-color;
 }

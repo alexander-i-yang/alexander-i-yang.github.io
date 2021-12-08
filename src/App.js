@@ -8,7 +8,7 @@ import About from './About.js';
 class App extends React.Component {
     render() {
         return (
-            <div className="App">
+            <div className="app">
                 <Router>
                     <nav>
                         <Link to="/">Home</Link>
