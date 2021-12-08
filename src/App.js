@@ -10,14 +10,18 @@ class App extends React.Component {
         return (
             <div className="App">
                 <Router>
-                    <div>
+                    <nav>
+                        <Link to="/">Home</Link>
+                        <Link to="about">About</Link>
+                    </nav>
+                    {/*<div>
                         <nav>
                             <Link to="/">Home</Link>
                             <Link to="about">About</Link>
                         </nav>
-                    </div>
+                    </div>*/}
                     <Routes>
-                        <Route exact path="/" element={<h1>Home</h1>}/>
+                        <Route exact path="/" element={<Home/>}/>
                         <Route exact path="about" element={<About/>}/>
                     </Routes>
                 </Router>
