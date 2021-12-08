@@ -3,10 +3,10 @@ $secondary-color: #25b396;
 $bg-color: #13141a;
 $card-color-20: #313137;
 
-$primary-font: 'Josefin Sans', sans-serif;
-$secondary-font: 'Josefin Sans', monospace;
-
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Source+Code+Pro&display=swap');
+$primary-font: 'Josefin Sans', sans-serif;
+$secondary-font: 'Source Code Pro', monospace;
 
 $primary-text-color: #e0e0e0;
 $secondary-text-color: #a0a0a0;
@@ -38,9 +38,59 @@ nav {
 
 .content {
   overflow-y: auto;
+  flex-grow: 1;
 }
 
 //Home page
 .landing {
-  height: 1000px;
+  height: 100%;
+  display: flex;
+  flex-grow: 1;
+
+  * {
+    color: $secondary-text-color;
+    font-family: $secondary-font;
+  }
+
+  > * {
+    display: flex;
+    flex-direction: column;
+}
+
+  .left {
+    width: 33vw;
+    padding: 80px 0 80px 80px;
+    //background-color: $card-color-20;
+  }
+
+  .right {
+    width: 67vw;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .hi {
+    color: $secondary-text-color;
+    font-size: 40px;
+    margin-bottom: 16px;
+  }
+
+  img.extended-logo {
+    width: 400px;
+    margin-bottom: 100px;
+  }
+
+  img.headshot {
+    width: 500px;
+  }
+
+  .mission-statements {
+    div {
+      margin-bottom: 32px;
+    }
+
+    b.position {
+      color: $primary-text-color;
+    }
+  }
 }
