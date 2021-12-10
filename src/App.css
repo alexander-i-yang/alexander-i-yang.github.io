@@ -5,7 +5,7 @@ body {
 }
 
 nav {
-  background-color: #313137;
+  background-color: #212227;
   padding: 8px;
 }
 nav a {
@@ -84,10 +84,16 @@ nav a {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: #313137;
+  background-color: #212227;
   width: 100%;
   margin: 40px;
   color: #a0a0a0;
+}
+.skills .card-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
 }
 .skills .title-wrapper {
   width: auto;
@@ -105,11 +111,37 @@ nav a {
 }
 .skills .section {
   font-family: "Source Code Pro", monospace;
+  flex-grow: 1;
   padding: 16px;
 }
 .skills .section .section-title {
   color: #e0e0e0;
   font-size: 24px;
+}
+.skills .button-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.skills .expanding-button {
+  width: 50%;
+  margin-bottom: 32px;
+}
+
+.expanding-button {
+  background-color: #25b39620;
+  padding: 8px;
+  color: #25b396;
+  font-family: "Josefin Sans", sans-serif;
+  display: flex;
+  justify-content: center;
+  font-size: 18px;
+  cursor: pointer;
+  border: 1px solid transparent;
+  transition: 0.1s ease-in-out;
+}
+.expanding-button:hover {
+  border-color: #25b396;
 }
 
 /*# sourceMappingURL=App.css.map */

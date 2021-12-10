@@ -1,7 +1,9 @@
 $primary-color: #1e65a7;
 $secondary-color: #25b396;
+$secondary-color-20: #25b39620;
+$secondary-color-30: #25b39630;
 $bg-color: #13141a;
-$card-color-20: #313137;
+$card-color-20: #212227;
 
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Source+Code+Pro&display=swap');
@@ -120,6 +122,13 @@ nav {
     color: $secondary-text-color;
   }
 
+  .card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+  }
+
   .title-wrapper {
     width: auto;
     height: 100%;
@@ -140,6 +149,7 @@ nav {
   .section {
 
     font-family: $secondary-font;
+    flex-grow: 1;
 
     padding: 16px;
     .section-title {
@@ -147,5 +157,35 @@ nav {
       //font-family: $primary-font;
       font-size: 24px;
     }
+  }
+
+  .button-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .expanding-button {
+    width: 50%;
+    margin-bottom: 32px;
+  }
+}
+
+.expanding-button {
+  background-color: $secondary-color-20;
+  padding: 8px;
+  color: $secondary-color;
+  font-family: $primary-font;
+  display: flex;
+  justify-content: center;
+  font-size: 18px;
+
+  cursor: pointer;
+  border: 1px solid transparent;
+  transition: 0.1s ease-in-out;
+
+  &:hover {
+    border-color: $secondary-color;
+    //background-color: $secondary-color-30;
   }
 }

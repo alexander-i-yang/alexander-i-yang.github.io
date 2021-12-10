@@ -4,6 +4,8 @@ import ExtendedLogo from './images/ExtendedLogo.svg';
 import Headshot from './images/Headshot.png';
 import Content from './content.json';
 
+import ExpandingButton from './ExpandingButton.js';
+
 const Mission = ({position, description}) => {
     return (
         <div>
@@ -74,6 +76,9 @@ class SkillCard extends React.Component {
                     <div className="card-content">
                         <Section title="Skills" list={this.props.skills}/>
                         <Section title="Projects/Experience" list={this.props.projects}/>
+                    </div>
+                    <div className="button-wrapper">
+                        <ExpandingButton text="See More"/>
                     </div>
                 </div>
             </div>
