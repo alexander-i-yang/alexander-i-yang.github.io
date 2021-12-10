@@ -1,0 +1,38 @@
+{
+  "skills": [
+    {
+      "title": "Data Science",
+      "image": "/images/Data Science Cardsplash.png",
+      "darken": 0.7,
+      "skills": [
+        "TensorFlow",
+        "SQL Server Management Studio",
+        "NumPy",
+        "Pandas",
+        "Google BigQuery"
+      ],
+      "projects": [
+        "OneSupport Ltd.",
+        "PicoCTF"
+      ]
+    }, {
+      "title": "Web Dev",
+      "skills": [
+        "TensorFlow",
+        "SQL Server Management Studio",
+        "NumPy",
+        "Pandas",
+        "Google BigQuery"
+      ]
+    }, {
+      "title": "Game Dev",
+      "skills": [
+        "TensorFlow",
+        "SQL Server Management Studio",
+        "NumPy",
+        "Pandas",
+        "Google BigQuery"
+      ]
+    }
+  ]
+}
