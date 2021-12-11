@@ -3,7 +3,7 @@
     {
       "title": "Data Science",
       "image": "/images/Data Science Cardsplash.png",
-      "darken": 0.7,
+      "darken": 0.9,
       "skills": [
         "TensorFlow",
         "SQL Server Management Studio",
@@ -17,6 +17,8 @@
       ]
     }, {
       "title": "Web Dev",
+      "image": "/images/Web Dev Cardsplash.png",
+      "darken": 0.8,
       "skills": [
         "TensorFlow",
         "SQL Server Management Studio",
@@ -26,6 +28,8 @@
       ]
     }, {
       "title": "Game Dev",
+      "image": "/images/Game Dev Cardsplash.png",
+      "darken": 0.9,
       "skills": [
         "TensorFlow",
         "SQL Server Management Studio",

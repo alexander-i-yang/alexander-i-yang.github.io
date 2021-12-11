@@ -6,7 +6,8 @@ body {
 
 nav {
   background-color: #212227;
-  padding: 8px;
+  padding: 16px;
+  font-size: 16px;
 }
 nav a {
   color: #a0a0a0;
@@ -30,6 +31,7 @@ nav a {
 
 .landing {
   min-height: auto;
+  height: 100%;
   display: flex;
   flex-grow: 1;
 }
@@ -76,7 +78,7 @@ nav a {
 }
 .skills .card-wrapper {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   width: 100%;
 }
@@ -85,8 +87,7 @@ nav a {
   flex-direction: column;
   justify-content: center;
   background-color: #212227;
-  width: 100%;
-  margin: 40px;
+  width: 25vw;
   color: #a0a0a0;
 }
 .skills .card-content {
@@ -106,7 +107,7 @@ nav a {
   background-repeat: no-repeat;
   background-size: cover;
   font-weight: bold;
-  font-size: 40px;
+  font-size: 32px;
   padding: 25% 10%;
 }
 .skills .section {
@@ -116,7 +117,7 @@ nav a {
 }
 .skills .section .section-title {
   color: #e0e0e0;
-  font-size: 24px;
+  font-size: 18px;
 }
 .skills .button-wrapper {
   display: flex;
