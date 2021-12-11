@@ -36,6 +36,7 @@ class SkillCard extends React.Component {
                     </div>
                     <div className="card-content">
                         <Section title="Skills" list={this.props.skills}/>
+                        <Section title="Languages" list={this.props.languages}/>
                         <Section title="Projects/Experience" list={this.props.projects}/>
                     </div>
                     <div className="button-wrapper">
@@ -56,6 +57,7 @@ class Skills extends React.Component {
             img={e.image}
             darken={e.darken}
             skills={e.skills}
+            languages={e.languages}
             projects={e.projects}
         />);
         return (

@@ -11,6 +11,12 @@
         "Pandas",
         "Google BigQuery"
       ],
+      "languages": [
+        "Python",
+        "SQL",
+        "Java",
+        "C++"
+      ],
       "projects": [
         "OneSupport Ltd.",
         "PicoCTF"
@@ -20,22 +26,42 @@
       "image": "/images/Web Dev Cardsplash.png",
       "darken": 0.8,
       "skills": [
-        "TensorFlow",
-        "SQL Server Management Studio",
-        "NumPy",
-        "Pandas",
-        "Google BigQuery"
+        "React",
+        "Material Design",
+        "UI/UX Design",
+        "Flask",
+        "React Native"
+      ],
+      "languages": [
+        "JavaScript",
+        "SQL",
+        "Java",
+        "HTML5/CSS3",
+        "Dart"
+      ],
+      "projects": [
+        "This Website",
+        "Crypto Curious",
+        "PicoCTF",
+        "Google Hangouts Redesign Concept"
       ]
     }, {
       "title": "Game Dev",
       "image": "/images/Game Dev Cardsplash.png",
       "darken": 0.9,
       "skills": [
-        "TensorFlow",
-        "SQL Server Management Studio",
-        "NumPy",
-        "Pandas",
-        "Google BigQuery"
+        "Game Design", "Level Design", "Unity", "Tiled", "Pixel Art"
+      ],
+      "languages": [
+        "C#",
+        "C++"
+      ],
+      "projects": [
+        "The Beta Tester's Guide to Gravity Manipulation",
+        "Paravoid",
+        "Side By Side",
+        "Beam",
+        "Cave Toss"
       ]
     }
   ]

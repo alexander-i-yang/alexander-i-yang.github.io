@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ada2f07a-a08f-41a5-8589-295ada843d0a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/images/Game Dev Cardsplash.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/Web Dev Cardsplash.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Skills.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Skills.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Skills.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/content.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/content.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,7 +69,7 @@
       <workItem from="1638929297882" duration="7423000" />
       <workItem from="1639098504572" duration="8719000" />
       <workItem from="1639108223584" duration="1948000" />
-      <workItem from="1639201701632" duration="1884000" />
+      <workItem from="1639201701632" duration="2882000" />
     </task>
     <servers />
   </component>

@@ -117,6 +117,7 @@ nav {
     flex-direction: column;
     justify-content: center;
     background-color: $card-color-20;
+    max-width: 400px;
     width: 25vw;
 
     color: $secondary-text-color;
@@ -151,7 +152,7 @@ nav {
     font-family: $secondary-font;
     flex-grow: 1;
 
-    padding: 16px;
+    padding: 16px 16px 0;
     .section-title {
       color: $primary-text-color;
       //font-family: $primary-font;
@@ -167,7 +168,7 @@ nav {
 
   .expanding-button {
     width: 50%;
-    margin-bottom: 32px;
+    margin: 32px 0;
   }
 }
 
