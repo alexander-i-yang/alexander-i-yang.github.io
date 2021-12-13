@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Source+Code+Pro&display=swap");
 body {
   margin: 0;
+  font-family: "Source Code Pro", monospace;
 }
 
 nav {
@@ -37,7 +38,6 @@ nav a {
 }
 .landing * {
   color: #a0a0a0;
-  font-family: "Source Code Pro", monospace;
 }
 .landing > * {
   display: flex;
@@ -102,7 +102,7 @@ nav a {
   height: 100%;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-end;
   font-family: "Josefin Sans", sans-serif;
   color: #1e65a7;
   background-repeat: no-repeat;
@@ -111,8 +111,11 @@ nav a {
   font-size: 32px;
   padding: 25% 10%;
 }
+.skills .title-wrapper .material-icons-sharp {
+  font-size: 36px;
+  margin-right: 8px;
+}
 .skills .section {
-  font-family: "Source Code Pro", monospace;
   flex-grow: 1;
   padding: 16px 16px 0;
 }
@@ -145,6 +148,22 @@ nav a {
 }
 .expanding-button:hover {
   border-color: #25b396;
+}
+
+footer {
+  background-color: #212227;
+  color: #e0e0e0;
+  padding: 16px;
+}
+footer .top {
+  display: flex;
+  flex-direction: row;
+}
+footer .top h1 {
+  margin: 0;
+}
+footer .top > div {
+  flex-grow: 1;
 }
 
 /*# sourceMappingURL=App.css.map */

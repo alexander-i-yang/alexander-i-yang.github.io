@@ -1,7 +1,11 @@
 {
+  "global": {
+    "siteRepoURL": "https://github.com/alexander-i-yang/alexander-i-yang.github.io"
+  },
   "skills": [
     {
       "title": "Data Science",
+      "icon": "analytics",
       "image": "/images/Data Science Cardsplash.png",
       "darken": 0.9,
       "skills": [
@@ -23,6 +27,7 @@
       ]
     }, {
       "title": "Web Dev",
+      "icon": "code",
       "image": "/images/Web Dev Cardsplash.png",
       "darken": 0.8,
       "skills": [
@@ -47,6 +52,7 @@
       ]
     }, {
       "title": "Game Dev",
+      "icon": "sports_esports",
       "image": "/images/Game Dev Cardsplash.png",
       "darken": 0.9,
       "skills": [

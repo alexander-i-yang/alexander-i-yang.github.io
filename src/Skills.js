@@ -22,8 +22,6 @@ class Section extends React.Component {
 
 class SkillCard extends React.Component {
     render() {
-        const t = this.props.title;
-        //background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('landingpagepic.jpg');
         const titleWrapperStyle = {
             backgroundImage: `linear-gradient( rgba(0, 0, 0, ${this.props.darken}), rgba(0, 0, 0, ${this.props.darken}) ), url(\"${this.props.img}\")`
         };
@@ -32,7 +30,10 @@ class SkillCard extends React.Component {
             <div className="card-wrapper">
                 <div className="card">
                     <div className="title-wrapper" style={titleWrapperStyle}>
-                        {t}
+                        <span className="material-icons-sharp">
+                            {this.props.icon}
+                        </span>
+                        {this.props.title}
                     </div>
                     <div className="card-content">
                         <Section title="Skills" list={this.props.skills}/>
@@ -54,6 +55,7 @@ class Skills extends React.Component {
         let renderData = skillData.map(e => <SkillCard
             key={e.title}
             title={e.title}
+            icon={e.icon}
             img={e.image}
             darken={e.darken}
             skills={e.skills}
