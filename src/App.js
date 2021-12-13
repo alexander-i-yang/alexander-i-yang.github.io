@@ -3,7 +3,7 @@ import React from 'react';
 import {BrowserRouter as Router, Route, Link, Routes} from "react-router-dom";
 import Home from './Home.js';
 import About from './About.js';
-import Bottom from './Bottom.js';
+import Footer from './Footer.js';
 
 class App extends React.Component {
     render() {
@@ -25,7 +25,7 @@ class App extends React.Component {
                             <Route exact path="/" element={<Home/>}/>
                             <Route exact path="about" element={<About/>}/>
                         </Routes>
-                        <Bottom />
+                        <Footer />
                     </div>
                 </Router>
             </div>

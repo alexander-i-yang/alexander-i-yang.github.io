@@ -2,6 +2,8 @@ import './App.css';
 import React from 'react';
 import ExpandingButton from './ExpandingButton.js';
 import Content from './content.json';
+import {Icon, ICON_TYPES} from './Icon.js';
+
 
 class Section extends React.Component {
     render() {
@@ -30,9 +32,7 @@ class SkillCard extends React.Component {
             <div className="card-wrapper">
                 <div className="card">
                     <div className="title-wrapper" style={titleWrapperStyle}>
-                        <span className="material-icons-sharp">
-                            {this.props.icon}
-                        </span>
+                        <Icon type={ICON_TYPES.material} id={this.props.icon}/>
                         {this.props.title}
                     </div>
                     <div className="card-content">

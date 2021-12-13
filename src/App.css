@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Source+Code+Pro&display=swap");
 body {
@@ -75,6 +76,7 @@ nav a {
   display: flex;
   flex-direction: row;
   padding: 0 40px;
+  margin-top: 18px;
 }
 .skills .card-wrapper {
   display: flex;
@@ -131,6 +133,27 @@ nav a {
 .skills .expanding-button {
   width: 50%;
   margin: 32px 0;
+}
+
+ul {
+  padding: 0 0 0 8px;
+  margin: 0;
+}
+
+li {
+  padding-left: 8px;
+}
+li::marker {
+  content: "▪";
+  font-size: 18px;
+}
+
+a {
+  color: inherit;
+  transition: 0.1s ease-in-out;
+}
+a:hover {
+  color: #25b396;
 }
 
 .expanding-button {

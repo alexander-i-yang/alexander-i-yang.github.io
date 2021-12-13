@@ -2,7 +2,7 @@ import './App.css';
 import React from 'react';
 import Content from './content.json';
 
-class Bottom extends React.Component {
+class Footer extends React.Component {
     render() {
         return (
             <footer>
@@ -15,7 +15,7 @@ class Bottom extends React.Component {
                     </div>
                 </div>
                 <div className="bottom">
-                    This website was made from scratch using the React Library.
+                    This website was made from scratch with React.js and Sass.
                     Open source on <a href={Content.global.siteRepoURL}>Github</a>.
                 </div>
             </footer>
@@ -23,4 +23,4 @@ class Bottom extends React.Component {
     }
 }
 
-export default Bottom;
+export default Footer;
