@@ -1,7 +1,7 @@
 import './App.css';
 import React from 'react';
 import ExpandingButton from './ExpandingButton.js';
-import Content from './content.json';
+import Content from './content.js';
 import {Icon, ICON_TYPES} from './Icon.js';
 
 

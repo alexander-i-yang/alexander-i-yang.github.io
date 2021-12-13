@@ -1,10 +1,21 @@
 import './App.css';
 import React from 'react';
+import Content from './content.js';
 
 const ICON_TYPES = {
     "material": Symbol("material"),
     "custom": Symbol("custom"),
 };
+
+class IconButton extends React.Component {
+    render() {
+        return (
+            <a className="icon-button" href={this.props.href}>
+                {this.props.icon}
+            </a>
+        );
+    }
+}
 
 class Icon extends React.Component {
     render() {
@@ -16,11 +27,16 @@ class Icon extends React.Component {
                     </span>
                 );
             case ICON_TYPES.custom:
-                return(this.props.id);
+                return(
+                    <span>
+                        {/*<img src={} alt="Github"/>*/}
+                        {Content.icons[this.props.id]}
+                    </span>
+                );
             default:
-                return(this.props.id);
+                return (this.props.id);
         }
     }
 }
 
-export {Icon, ICON_TYPES};
+export {Icon, ICON_TYPES, IconButton};

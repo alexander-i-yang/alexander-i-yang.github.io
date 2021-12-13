@@ -1,6 +1,10 @@
-{
+import {ReactComponent as GithubIcon} from "./images/github.svg";
+// import React from "react";
+
+const Content = {
   "global": {
-    "siteRepoURL": "https://github.com/alexander-i-yang/alexander-i-yang.github.io"
+    "siteRepoURL": "https://github.com/alexander-i-yang/alexander-i-yang.github.io",
+    "email": "mailto:alexander.yang@yang2k.com"
   },
   "skills": [
     {
@@ -70,5 +74,10 @@
         "Cave Toss"
       ]
     }
-  ]
-}
+  ],
+  "icons": {
+    "github": <GithubIcon />,
+  }
+};
+
+export default Content;

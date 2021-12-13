@@ -1,4 +1,5 @@
 $color-primary: #1e65a7;
+$color-primary-20: #1e65a720;
 $color-secondary: #25b396;
 $color-secondary-20: #25b39620;
 $color-secondary-30: #25b39630;
@@ -11,6 +12,7 @@ $font-primary: 'Josefin Sans', sans-serif;
 $font-secondary: 'Source Code Pro', monospace;
 
 $color-text-primary: #e0e0e0;
+$color-text-primary-20: #e0e0e020;
 $color-text-secondary: #a0a0a0;
 
 body {
@@ -202,6 +204,24 @@ a {
   }
 }
 
+.icon-button {
+  padding: 8px;
+  display: flex;
+  transition: all 0.1s ease-in-out;
+  cursor: pointer;
+  text-decoration: none;
+
+  &:hover {
+    background-color: $color-secondary-20;
+    color: $color-secondary;
+  }
+
+  &:active {
+    background-color: $color-primary-20;
+    color: $color-primary;
+  }
+}
+
 .expanding-button {
   background-color: $color-secondary-20;
   padding: 8px;
@@ -227,6 +247,10 @@ footer {
   background-color: $color-card-20;
   color: $color-text-primary;
   padding: 16px;
+
+  .icons {
+    display: flex;
+  }
 
   .top {
     display: flex;

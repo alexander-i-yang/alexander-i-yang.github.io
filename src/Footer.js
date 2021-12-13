@@ -1,6 +1,7 @@
 import './App.css';
 import React from 'react';
-import Content from './content.json';
+import Content from './content.js';
+import {Icon, ICON_TYPES, IconButton} from './Icon.js';
 
 class Footer extends React.Component {
     render() {
@@ -9,6 +10,14 @@ class Footer extends React.Component {
                 <div className="top">
                     <div className="left">
                         <h1>Contact</h1>
+                        <div className="icons">
+                            <IconButton href={Content.global.email} icon={
+                                <Icon type={ICON_TYPES.material} id="mail"/>
+                            }/>
+                            <IconButton href={Content.global.email} icon={
+                                <Icon type={ICON_TYPES.custom} id="github"/>
+                            }/>
+                        </div>
                     </div>
                     <div className="right">
                         <h1>Navigation</h1>

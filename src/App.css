@@ -156,6 +156,22 @@ a:hover {
   color: #25b396;
 }
 
+.icon-button {
+  padding: 8px;
+  display: flex;
+  transition: all 0.1s ease-in-out;
+  cursor: pointer;
+  text-decoration: none;
+}
+.icon-button:hover {
+  background-color: #25b39620;
+  color: #25b396;
+}
+.icon-button:active {
+  background-color: #1e65a720;
+  color: #1e65a7;
+}
+
 .expanding-button {
   background-color: #25b39620;
   padding: 8px;
@@ -177,6 +193,9 @@ footer {
   background-color: #212227;
   color: #e0e0e0;
   padding: 16px;
+}
+footer .icons {
+  display: flex;
 }
 footer .top {
   display: flex;
