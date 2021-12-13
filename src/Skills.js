@@ -33,7 +33,7 @@ class SkillCard extends React.Component {
                 <div className="card">
                     <div className="title-wrapper" style={titleWrapperStyle}>
                         <Icon type={ICON_TYPES.material} id={this.props.icon}/>
-                        {this.props.title}
+                        <span>{this.props.title}</span>
                     </div>
                     <div className="card-content">
                         <Section title="Skills" list={this.props.skills}/>

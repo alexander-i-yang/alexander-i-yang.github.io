@@ -33,7 +33,6 @@ nav a {
 
 .landing {
   min-height: auto;
-  height: 100%;
   display: flex;
   flex-grow: 1;
 }
@@ -59,8 +58,8 @@ nav a {
   margin-bottom: 16px;
 }
 .landing img.extended-logo {
-  width: 400px;
-  margin-bottom: 100px;
+  width: 300px;
+  margin-bottom: 72px;
 }
 .landing img.headshot {
   width: 30vw;
@@ -116,6 +115,7 @@ nav a {
 .skills .title-wrapper .material-icons-sharp {
   font-size: 36px;
   margin-right: 8px;
+  align-self: center;
 }
 .skills .section {
   flex-grow: 1;
