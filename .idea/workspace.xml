@@ -2,15 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ada2f07a-a08f-41a5-8589-295ada843d0a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/images/github.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/Icons/linkedin.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/csv-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/csv-plugin.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Footer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Icon.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Icon.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Skills.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Skills.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/content.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/content.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/content.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/content.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/github.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/Icons/github.svg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,8 +55,8 @@
       <recent name="C:\Users\uncle\PycharmProjects\me\src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\uncle\PycharmProjects\me\src\images" />
       <recent name="C:\Users\uncle\PycharmProjects\me\src\images\Icons" />
+      <recent name="C:\Users\uncle\PycharmProjects\me\src\images" />
       <recent name="C:\Users\uncle\PycharmProjects\me\public\images\Icons" />
       <recent name="C:\Users\uncle\PycharmProjects\me\public\images" />
       <recent name="C:\Users\uncle\PycharmProjects\me\src" />
@@ -76,7 +77,7 @@
       <workItem from="1639108223584" duration="1948000" />
       <workItem from="1639201701632" duration="3402000" />
       <workItem from="1639369849001" duration="4219000" />
-      <workItem from="1639435034908" duration="2834000" />
+      <workItem from="1639435034908" duration="5441000" />
     </task>
     <servers />
   </component>
@@ -102,10 +103,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="769" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1639370774023" />
-    <state x="498" y="178" width="672" height="538" key="search.everywhere.popup" timestamp="1639104730833">
+    <state x="498" y="178" width="672" height="538" key="search.everywhere.popup" timestamp="1639438360642">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="498" y="178" width="672" height="538" key="search.everywhere.popup/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1639104730833" />
+    <state x="498" y="178" width="672" height="538" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1639438360642" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1639102546308" />
   </component>
 </project>

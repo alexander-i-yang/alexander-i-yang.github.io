@@ -162,14 +162,17 @@ a:hover {
   transition: all 0.1s ease-in-out;
   cursor: pointer;
   text-decoration: none;
+  fill: #e0e0e0;
 }
 .icon-button:hover {
   background-color: #25b39620;
   color: #25b396;
+  fill: #25b396;
 }
 .icon-button:active {
   background-color: #1e65a720;
   color: #1e65a7;
+  fill: #1e65a7;
 }
 
 .expanding-button {

@@ -210,15 +210,18 @@ a {
   transition: all 0.1s ease-in-out;
   cursor: pointer;
   text-decoration: none;
+  fill: $color-text-primary;
 
   &:hover {
     background-color: $color-secondary-20;
     color: $color-secondary;
+    fill: $color-secondary;
   }
 
   &:active {
     background-color: $color-primary-20;
     color: $color-primary;
+    fill: $color-primary;
   }
 }
 

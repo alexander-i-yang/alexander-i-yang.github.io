@@ -28,8 +28,7 @@ class Icon extends React.Component {
                 );
             case ICON_TYPES.custom:
                 return(
-                    <span>
-                        {/*<img src={} alt="Github"/>*/}
+                    <span className="custom-icon">
                         {Content.icons[this.props.id]}
                     </span>
                 );

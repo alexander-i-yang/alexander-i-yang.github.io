@@ -14,8 +14,11 @@ class Footer extends React.Component {
                             <IconButton href={Content.global.email} icon={
                                 <Icon type={ICON_TYPES.material} id="mail"/>
                             }/>
-                            <IconButton href={Content.global.email} icon={
+                            <IconButton href={Content.global.github} icon={
                                 <Icon type={ICON_TYPES.custom} id="github"/>
+                            }/>
+                            <IconButton href={Content.global["linkedIn"]} icon={
+                                <Icon type={ICON_TYPES.custom} id="linkedIn"/>
                             }/>
                         </div>
                     </div>

@@ -1,10 +1,13 @@
-import {ReactComponent as GithubIcon} from "./images/github.svg";
+import {ReactComponent as GithubIcon} from "./images/Icons/github.svg";
+import {ReactComponent as LinkedInIcon} from "./images/Icons/linkedin.svg";
 // import React from "react";
 
 const Content = {
   "global": {
     "siteRepoURL": "https://github.com/alexander-i-yang/alexander-i-yang.github.io",
-    "email": "mailto:alexander.yang@yang2k.com"
+    "github": "https://github.com/alexander-i-yang",
+    "email": "mailto:alexander.yang@yang2k.com",
+    "linkedIn": "https://www.linkedin.com/in/alexander-i-yang/"
   },
   "skills": [
     {
@@ -77,6 +80,7 @@ const Content = {
   ],
   "icons": {
     "github": <GithubIcon />,
+    "linkedIn": <LinkedInIcon />,
   }
 };
 
