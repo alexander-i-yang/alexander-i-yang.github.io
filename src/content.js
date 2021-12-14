@@ -9,6 +9,10 @@ const Content = {
     "email": "mailto:alexander.yang@yang2k.com",
     "linkedIn": "https://www.linkedin.com/in/alexander-i-yang/"
   },
+  "icons": {
+    "github": <GithubIcon />,
+    "linkedIn": <LinkedInIcon />,
+  },
   "skills": [
     {
       "title": "Data Science",
@@ -25,7 +29,7 @@ const Content = {
       "languages": [
         "Python",
         "SQL",
-        "Java",
+        // "Java",
         "C++"
       ],
       "projects": [
@@ -42,14 +46,14 @@ const Content = {
         "Material Design",
         "UI/UX Design",
         "Flask",
-        "React Native"
+        // "React Native"
       ],
       "languages": [
         "JavaScript",
-        "SQL",
-        "Java",
+        // "SQL",
+        // "Java",
         "HTML5/CSS3",
-        "Dart"
+        // "Dart"
       ],
       "projects": [
         "This Website",
@@ -63,7 +67,11 @@ const Content = {
       "image": "/images/Game Dev Cardsplash.png",
       "darken": 0.8,
       "skills": [
-        "Game Design", "Level Design", "Unity", "Tiled", "Pixel Art"
+        "Game Design",
+        "Level Design",
+        "Unity",
+        // "Tiled",
+        "Pixel Art"
       ],
       "languages": [
         "C#",
@@ -78,9 +86,10 @@ const Content = {
       ]
     }
   ],
-  "icons": {
-    "github": <GithubIcon />,
-    "linkedIn": <LinkedInIcon />,
+  projects: {
+    "dataScience": "dataScience",
+    "webDev": "web dev",
+    "gameDev": "game dev",
   }
 };
 

@@ -24,7 +24,7 @@ class Landing extends React.Component {
                     <div className="mission-statements">
                         <Mission position={"Data Scientist"}
                                  description={"focused on the interaction between humans, data, and AI"}/>
-                        <div>A <b className="position">Full Stack Web Developer</b> creating sleek, Material-inspired,
+                        <div>A <b className="position">Web Developer</b> (Full Stack) creating sleek, Material-inspired,
                             React-powered websites
                         </div>
                         <div>A <b className="position">Game Developer</b> making razor-tight pixel puzzle-platformers
