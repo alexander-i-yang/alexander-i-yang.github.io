@@ -135,6 +135,70 @@ nav a {
   margin: 32px 0;
 }
 
+.project-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20vw;
+}
+.project-page .header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.project-page .header .title {
+  font-family: "Josefin Sans", sans-serif;
+  color: #1e65a7;
+  font-size: 96px;
+}
+.project-page .header .flavor {
+  margin-bottom: 16px;
+  color: #e0e0e0;
+}
+.project-page .header .description {
+  color: #a0a0a0;
+  font-size: 16px;
+}
+.project-page .projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+}
+.project-page .projects .project {
+  width: 100%;
+  background-color: #212227;
+  display: flex;
+  flex-direction: column;
+  padding: 32px;
+}
+.project-page .projects .project .header {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: space-between;
+  height: auto;
+}
+.project-page .projects .project .flavor {
+  color: #e0e0e0;
+  margin-bottom: 32px;
+}
+.project-page .projects .project .title {
+  color: #1e65a7;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 48px;
+}
+.project-page .projects .project .date {
+  color: #a0a0a0;
+}
+.project-page .projects .project .description {
+  color: #a0a0a0;
+}
+
 ul {
   padding: 0 0 0 8px;
   margin: 0;

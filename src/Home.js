@@ -22,13 +22,15 @@ class Landing extends React.Component {
                     </div>
                     <img className="extended-logo" src={ExtendedLogo} alt="Alex Yang"/>
                     <div className="mission-statements">
-                        <Mission position={"Data Scientist"}
-                                 description={"focused on the interaction between humans, data, and AI"}/>
-                        <div>A <b className="position">Web Developer</b> (Full Stack) creating sleek, Material-inspired,
-                            React-powered websites
-                        </div>
-                        <div>A <b className="position">Game Developer</b> making razor-tight pixel puzzle-platformers
-                        </div>
+                        <Mission position={"Data Scientist"} description={
+                            "focused on the interaction between humans, data, and AI"
+                        }/>
+                         <Mission position={"Web Developer"} description={
+                             "(Full Stack) creating sleek, Material-inspired, React-powered websites"
+                         }/>
+                         <Mission position={"Game Developer"} description={
+                             "making razor-tight pixel puzzle-platformers"
+                         }/>
                     </div>
                 </div>
                 <div className="right">
