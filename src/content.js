@@ -109,16 +109,16 @@ Content.projects = {
                 "numbers": [
                     [
                         {
-                            "number": "1000+",
+                            "number": "1,000+",
                             "description": "hrs/yr eliminated"
                         },
                         {
-                            "number": "24000+",
+                            "number": "80,000+",
                             "description": "$/yr saved"
                         },
                     ], [
                         {
-                            "number": "2300+",
+                            "number": "2,300+",
                             "description": "Call representatives"
                         }, {
                             "number": "4",
@@ -134,7 +134,23 @@ Content.projects = {
                 "title": "Pico CTF",
                 "date": "Oct 2019",
                 "flavor": "White hat hacking",
-                "description": "I was my team's lead and web development specialist in the international PicoCTF Cybersecurity hackathon. Although I mainly focused on finding web development vulnerabilities, I also worked on reverse engineering and file de-corruption."
+                "description": "I was my team's lead and web development specialist in the international PicoCTF Cybersecurity hackathon. Although I mainly focused on finding web development vulnerabilities, I also worked on reverse engineering and file de-corruption.",
+                "numbers": [
+                    [
+                        {
+                            "number": "2.60%",
+                            "description": "Top global ranking"
+                        },
+                    ], [
+                        {
+                            "number": "39,000",
+                            "description": "Participating teams"
+                        }, {
+                            "number": "2",
+                            "description": "Week long hackathon"
+                        }
+                    ]
+                ]
             },
         ],
     },
