@@ -175,6 +175,7 @@ nav a {
   display: flex;
   flex-direction: column;
   padding: 32px;
+  margin-bottom: 32px;
 }
 .project-page .projects .project .header {
   display: flex;
@@ -197,6 +198,27 @@ nav a {
 }
 .project-page .projects .project .description {
   color: #a0a0a0;
+}
+.project-page .numbers {
+  display: grid;
+  color: #e0e0e0;
+}
+.project-page .numbers .number-row {
+  display: grid;
+  grid-auto-columns: minmax(0, 1fr);
+  grid-auto-flow: column;
+}
+.project-page .numbers .number-row .big-number-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 32px;
+}
+.project-page .numbers .number-row .big-number-container .big-number {
+  font-family: "Josefin Sans", sans-serif;
+  color: #1e65a7;
+  font-size: 64px;
 }
 
 ul {

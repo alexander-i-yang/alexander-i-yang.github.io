@@ -2,26 +2,63 @@ import './App.css';
 import React from 'react';
 import Content from './content.js';
 
+class Number extends React.Component {
+    render() {
+        return(
+            <div className="big-number-container">
+                <div className="big-number">
+                    {this.props.number}
+                </div>
+                <div className="big-number-description">
+                    {this.props.description}
+                </div>
+            </div>
+        );
+    }
+}
+
+class Numbers extends React.Component {
+    render() {
+        let numbers = "";
+        if (this.props.numbers) {
+            numbers = this.props.numbers.map(e =>
+                <div className="number-row" key={e}>
+                    {e.map(ee =>
+                        <Number key={ee} number={ee.number} description={ee.description} />
+                    )}
+                </div>
+            );
+        }
+
+        return (
+            <div className="numbers">
+                {numbers}
+            </div>
+        );
+    }
+}
+
 class Project extends React.Component {
     render() {
         const data = this.props.content;
 
         return (
             <div className="project">
+                <span className="title">
+                    {data.title}
+                </span>
                 <div className="header">
-                    <span className="title">
-                        {data.title}
+                    <span className="flavor">
+                        {data.flavor}
                     </span>
                     <span className="date">
                         {data.date}
                     </span>
                 </div>
-                <span className="flavor">
-                    {data.flavor}
-                </span>
                 <div className="description">
                     {data.description}
                 </div>
+                <Numbers numbers = {data.numbers} />
             </div>
         );
     }

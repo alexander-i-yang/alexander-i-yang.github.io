@@ -105,11 +105,37 @@ Content.projects = {
                 "title": "One Support Ltd.",
                 "date": "Jun 2020 - Aug 2021",
                 "flavor": "Automating Call Projection Forecasting at age 17",
-                "description": "At OneSupport Ltd., I eliminated a manual forecasting process that relied mostly on intuition and the last month's numbers. I compared different forecasting methods, including an AI-powered ARIMA time series and a straight mathematical average. At first, the stakeholder wanted a Google-Cloud powered web app (which I prototyped using Python/Flask), but he eventually trusted me enough to integrate the SQL program directly into the company's Microsoft Management Studio backend. I developed all stages of the pipeline, including data processing, presentation, and visualization. I really enjoyed the work I did at OneSupport, and I would've stayed with them if I hadn't gone off to college.\n" +
-                    "\n" +
-                    "\n",
+                "description": "At OneSupport Ltd., I eliminated a manual forecasting process that relied mostly on intuition and the last month's numbers. I compared different forecasting methods, including an AI-powered ARIMA time series and a straight mathematical average. At first, the stakeholder wanted a Google-Cloud powered web app (which I prototyped by hosting Python/Flask on Google Cloud), but he eventually trusted me enough to integrate the SQL program directly into the company's Microsoft Management Studio backend. I developed all stages of the pipeline, including data processing, presentation, and visualization. I really enjoyed the work I did at OneSupport, and I would've stayed with them if I hadn't gone off to college. Unfortunately, I can't show images or share code because most of the project is proprietary.",
+                "numbers": [
+                    [
+                        {
+                            "number": "1000+",
+                            "description": "hrs/yr eliminated"
+                        },
+                        {
+                            "number": "24000+",
+                            "description": "$/yr saved"
+                        },
+                    ], [
+                        {
+                            "number": "2300+",
+                            "description": "Call representatives"
+                        }, {
+                            "number": "4",
+                            "description": "Person team"
+                        }, {
+                            "number": "3",
+                            "description": "Team members sorely missed"
+                        }
+                    ]
+                ]
             },
-            {"title": "Pico CTF"},
+            {
+                "title": "Pico CTF",
+                "date": "Oct 2019",
+                "flavor": "White hat hacking",
+                "description": "I was my team's lead and web development specialist in the international PicoCTF Cybersecurity hackathon. Although I mainly focused on finding web development vulnerabilities, I also worked on reverse engineering and file de-corruption."
+            },
         ],
     },
     "webDev": "web dev",
