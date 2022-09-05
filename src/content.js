@@ -20,68 +20,58 @@ const Content = {
             "icon": "analytics",
             "image": "/images/Data Science Cardsplash.png",
             "darken": 0.8,
-            "skills": [
-                "TensorFlow",
-                "SQL Server Management Studio",
-                "NumPy",
-                "Pandas",
-                "Google BigQuery"
-            ],
-            "languages": [
-                "Python",
-                "SQL",
-                // "Java",
-                "C++"
-            ],
+            "mission": "I focus on the interaction between humans, data, and AI",
             "projects": [
-                "OneSupport Ltd.",
-                "PicoCTF"
+                "KLA-Tencor",
+                "OneSupport Ltd."
             ]
         }, {
             "title": "Web Dev",
             "icon": "code",
             "image": "/images/Web Dev Cardsplash.png",
             "darken": 0.5,
-            "skills": [
-                "React",
-                "Material Design",
-                "UI/UX Design",
-                "Flask",
-                // "React Native"
-            ],
-            "languages": [
-                "JavaScript",
-                // "SQL",
-                // "Java",
-                "HTML5/CSS3",
-                // "Dart"
-            ],
+            "mission": "I create sleek, Material-inspired, React-powered websites",
+            // "skills": [
+            //     "React",
+            //     "Material Design",
+            //     "UI/UX Design",
+            //     "Flask",
+            //     // "React Native"
+            // ],
+            // "languages": [
+            //     "JavaScript",
+            //     // "SQL",
+            //     // "Java",
+            //     "HTML5/CSS3",
+            //     // "Dart"
+            // ],
             "projects": [
                 "This Website",
                 "Crypto Curious",
                 "PicoCTF",
-                "Google Hangouts Redesign Concept"
             ]
         }, {
             "title": "Game Dev",
             "icon": "sports_esports",
             "image": "/images/Game Dev Cardsplash.png",
             "darken": 0.8,
-            "skills": [
-                "Game Design",
-                "Level Design",
-                "Unity",
-                // "Tiled",
-                "Pixel Art"
-            ],
-            "languages": [
-                "C#",
-                "C++"
-            ],
+            "mission": "I make razor-tight mechanic-driven platformers",
+            // "skills": [
+            //     "Game Design",
+            //     "Level Design",
+            //     "Unity",
+            //     // "Tiled",
+            //     "Pixel Art"
+            // ],
+            // "languages": [
+            //     "C#",
+            //     "C++"
+            // ],
             "projects": [
+                "Factorythm",
                 "The Beta Tester's Guide to Gravity Manipulation",
-                "Paravoid",
-                "Side By Side",
+                // "Paravoid",
+                // "Side By Side",
                 "Beam",
                 "Cave Toss"
             ]

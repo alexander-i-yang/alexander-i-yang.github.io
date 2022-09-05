@@ -119,12 +119,18 @@ nav {
   .card {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     background-color: $color-card-20;
     max-width: 400px;
     width: 25vw;
-
+    height: 100%;
     color: $color-text-secondary;
+
+    .card-top {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+    }
   }
 
   .card-content {
@@ -161,12 +167,15 @@ nav {
 
     flex-grow: 1;
 
-    padding: 16px 16px 0;
-
+    padding: 24px 24px 0;
     .section-title {
       color: $color-text-primary;
-      //font-family: $primary-font;
+      text-align: center;
       font-size: 18px;
+    }
+
+    li {
+      padding: 8px;
     }
   }
 
@@ -294,9 +303,9 @@ ul {
 
 li {
   padding-left: 8px;
-
+  text-align: center;
   &::marker {
-    content: "▪";
+    content: "";
     font-size: 18px;
   }
 }

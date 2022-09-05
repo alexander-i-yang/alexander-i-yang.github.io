@@ -13,7 +13,7 @@ class Section extends React.Component {
         }
         return (
             <div className="section">
-                <span className="section-title">{this.props.title}</span>
+                <div className="section-title">{this.props.title}</div>
                 <ul>
                     {skillList}
                 </ul>
@@ -31,14 +31,17 @@ class SkillCard extends React.Component {
         return (
             <div className="card-wrapper">
                 <div className="card">
-                    <div className="title-wrapper" style={titleWrapperStyle}>
-                        <Icon type={ICON_TYPES.material} id={this.props.icon}/>
-                        <span>{this.props.title}</span>
-                    </div>
-                    <div className="card-content">
-                        <Section title="Skills" list={this.props.skills}/>
-                        <Section title="Languages" list={this.props.languages}/>
-                        <Section title="Projects/Experience" list={this.props.projects}/>
+                    <div className="card-top">
+                        <div className="title-wrapper" style={titleWrapperStyle}>
+                            <Icon type={ICON_TYPES.material} id={this.props.icon}/>
+                            <span>{this.props.title}</span>
+                        </div>
+                        <div className="card-content">
+                            {<Section title={this.props.mission}/>}
+                            {/*<Section title="Skills" list={this.props.skills}/>*/}
+                            {/*<Section title="Languages" list={this.props.languages}/>*/}
+                            <Section title="" list={this.props.projects}/>
+                        </div>
                     </div>
                     <div className="button-wrapper">
                         <ExpandingButton text="See More"/>
@@ -61,6 +64,7 @@ class Skills extends React.Component {
             skills={e.skills}
             languages={e.languages}
             projects={e.projects}
+            mission={e.mission}
         />);
         return (
             <div className="skills">{renderData}</div>
